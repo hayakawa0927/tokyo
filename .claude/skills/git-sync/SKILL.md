@@ -10,7 +10,8 @@ description: 原稿・設定ファイルの変更をGitでコミットし、リ�
 ## 前提
 
 - ブランチ: `main`
-- リモート（`origin`）は、まだ設定していない。設定したら、ここにURLを書く
+- リモート: `origin` = `https://github.com/hayakawa0927/tokyo.git`
+- 認証: このリポジトリのローカル設定で `credential.https://github.com.username = hayakawa0927` を指定済み
 - `.claude/settings.local.json` は `.gitignore` 済み（個人のローカル権限設定のため共有しない）
 
 ## 手順
