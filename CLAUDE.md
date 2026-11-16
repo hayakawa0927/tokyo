@@ -45,10 +45,10 @@
 | `docs/map_location_notes.md` | 場所（校舎・墨田区・23区） |
 | `docs/plot_plans.md` | まだ書いていない先の展開の案（章ごと・話数ごと） |
 | `docs/title.md` | 各話タイトルと品質評価スコア表 |
+| `docs/prose_style.md` | 文体・構成の方針 |
+| `docs/ng_expressions.md` | NG表現リスト |
 
-**文体・NG表現のルールは、奮闘記のものを使う**（このプロジェクトには置かない）:
-- `C:\Users\Admin\Desktop\現代ダンジョン奮闘記\docs\prose_style.md` — 文体・構成の方針
-- `C:\Users\Admin\Desktop\現代ダンジョン奮闘記\docs\ng_expressions.md` — NG表現リスト
+- `prose_style.md`・`ng_expressions.md` は、奮闘記のものを写して始めた。更新するときは、このプロジェクトのファイルだけを直す（奮闘記のファイルは直さない）
 
 ## 利用可能なスキル（.claude/skills/）
 

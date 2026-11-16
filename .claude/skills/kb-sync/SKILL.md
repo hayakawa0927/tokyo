@@ -9,8 +9,7 @@ description: 確定済みの本編・閑話原稿を数話分まとめて読み�
 
 ## 前提
 
-- ナレッジベース: `docs/story_knowledge_base.md`（章サマリー＋話数索引）、`docs/characters_knowledge_base.md`、`docs/world_knowledge_base.md`、`docs/skills_knowledge_base.md`、`docs/map_location_notes.md`
-- 文体・NG表現は奮闘記のもの（`C:\Users\Admin\Desktop\現代ダンジョン奮闘記\docs\ng_expressions.md`・`prose_style.md`）を使う。追記の候補は奮闘記のファイルへの追記として提示する
+- ナレッジベース: `docs/story_knowledge_base.md`（章サマリー＋話数索引）、`docs/characters_knowledge_base.md`、`docs/world_knowledge_base.md`、`docs/skills_knowledge_base.md`、`docs/map_location_notes.md`、`docs/ng_expressions.md`、`docs/prose_style.md`
 - mdファイルへの書き込みは**必ず変更内容を提示し、ユーザーの確認を取ってから**行う。Git管理下ではあるが、コミット前の誤った追記を無駄に増やさないため
 
 ## 手順
