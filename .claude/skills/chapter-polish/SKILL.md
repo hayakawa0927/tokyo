@@ -10,7 +10,8 @@ description: AI生成した小説の下書き原稿を、既存の設定・世�
 ## 前提
 
 - 本編: `NNN.txt`（3桁連番）、閑話: `閑話NNN.txt`
-- 参照資料はすべて `docs/` 配下のナレッジベース（`story_knowledge_base.md` `characters_knowledge_base.md` `world_knowledge_base.md` `skills_knowledge_base.md` `map_location_notes.md` `plot_plans.md` `ng_expressions.md` `prose_style.md`）
+- 参照資料はすべて `docs/` 配下のナレッジベース（`story_knowledge_base.md` `characters_knowledge_base.md` `world_knowledge_base.md` `skills_knowledge_base.md` `map_location_notes.md` `plot_plans.md`）
+- **文体・NG表現のルールは、奮闘記のものを使う**: `C:\Users\Admin\Desktop\現代ダンジョン奮闘記\docs\prose_style.md`・`C:\Users\Admin\Desktop\現代ダンジョン奮闘記\docs\ng_expressions.md`（以下の `prose_style.md`・`ng_expressions.md` はこの2つ）
 - 本編は天城 閃の一人称「俺」。閑話は視点が自由
 - ナレッジベースにまだない設定は、ゲームの資料（CLAUDE.md の「元ネタの場所」）を `Grep` で調べてよい。ただし小説の正はナレッジベースと確定した本文
 - **本編・閑話の生ファイルを全話読み込むことはしない**（トークン消費が膨大なため）。矛盾チェックはナレッジベース＋直近話の生ファイルのみで行う。
@@ -22,7 +23,7 @@ description: AI生成した小説の下書き原稿を、既存の設定・世�
 - 対象話数がまだファイル化されていない場合は、保存先ファイル名をユーザーに確認する
 
 ### 2. 参照範囲の決定と読み込み
-- `docs/ng_expressions.md` は毎回全文読む（軽量なため）
+- 奮闘記の `ng_expressions.md` と `prose_style.md` は毎回全文読む（軽量なため）
 - `docs/story_knowledge_base.md` 末尾の「最終更新：〜収録済み」の記述を確認し、そこからどこまでの話数が未収録かを把握する
 - 未収録分の生ファイルと、対象話の直前2〜3話を読み、直近の流れ・口調を把握する
 - 下書きに登場する固有名詞（キャラ名・組織名・スキル名・地名など）について、該当するナレッジベースファイル内を検索し、確立済み設定を確認する
