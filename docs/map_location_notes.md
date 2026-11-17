@@ -1,6 +1,6 @@
 # 場所
 
-元ネタ: ゲームの `docs/spec/chapter1-design.md`（マップ）・`docs/spec/ui-design.md`（校舎の形）・`docs/data/places.md`。
+元ネタ: `docs/source/ch01/` の `design.md`（1章の流れ）・`map.md`（校舎の形）・`places.md`（場所とつながり）。
 
 ---
 

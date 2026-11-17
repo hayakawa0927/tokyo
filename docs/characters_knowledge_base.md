@@ -1,6 +1,6 @@
 # キャラクター設定
 
-元ネタ: ゲームの `docs/data/story-list.md`（登場キャラの紹介）・`docs/prompts/characters/character-visuals.md`（見た目・背の高さ）・`docs/story/style/voices.md`（話し方）。
+元ネタ: `docs/source/ch01/` の `story.md`（登場キャラの紹介）・`characters.md`（キャラ図鑑）・`characters_visuals.md`（見た目・背の高さ）・`voices.md`（話し方）。
 1章のキャラだけを写した。2章から先のキャラは、その章を書き始めるときに足す。
 
 制服（業平高校）: 男子は黒の学ラン（詰襟・金ボタン）と白いシャツ、女子は紺のセーラー服（赤いスカーフ）と紺のプリーツスカート。

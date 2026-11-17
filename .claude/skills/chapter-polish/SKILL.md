@@ -12,7 +12,7 @@ description: AI生成した小説の下書き原稿を、既存の設定・世�
 - 本編: `NNN.txt`（3桁連番）、閑話: `閑話NNN.txt`
 - 参照資料はすべて `docs/` 配下のナレッジベース（`story_knowledge_base.md` `characters_knowledge_base.md` `world_knowledge_base.md` `skills_knowledge_base.md` `map_location_notes.md` `plot_plans.md` `ng_expressions.md` `prose_style.md`）
 - 本編は天城 閃の一人称「俺」。閑話は視点が自由
-- ナレッジベースにまだない設定は、ゲームの資料（CLAUDE.md の「元ネタの場所」）を `Grep` で調べてよい。ただし小説の正はナレッジベースと確定した本文
+- ナレッジベースにまだない設定は、元ネタの写し（`docs/source/chNN/`）を `Grep` で調べてよい。ただし小説の正はナレッジベースと確定した本文。**〈ゲーム〉のフォルダは直接見ない**。写しにもないときは、`source-sync` で写しを足すことをユーザーに提案する
 - **本編・閑話の生ファイルを全話読み込むことはしない**（トークン消費が膨大なため）。矛盾チェックはナレッジベース＋直近話の生ファイルのみで行う。
 
 ## 手順

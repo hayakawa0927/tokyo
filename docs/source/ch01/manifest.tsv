@@ -1,0 +1,13 @@
+# 1章で写すもの（出力	元ファイル	題	範囲）。source-sync スキルの snap.py が読む
+story.md	data/story-list.md	1章の物語の文	1-363
+design.md	spec/chapter1-design.md	1章の流れ（設計）	1-
+concept.md	spec/concept.md	世界・物語の構成と1章	1-208
+characters.md	data/characters/player.md	主人公側のキャラ図鑑（1章のキャラ）	1-148
+characters_visuals.md	prompts/characters/character-visuals.md	1章のキャラの見た目	67-99,219-305
+voices.md	story/style/voices.md	話し方（業平）	1-19,66-
+units.md	data/chapter1-units.md	1章のキャラと技	1-
+skill_visuals.md	prompts/skill-fx/ch1-ch2.md	1章の必殺技の見た目	1-139,203-242
+places.md	data/places.md	1章の場所	1-39
+map.md	spec/ui-design.md	1章のマップ（校舎）	130-156
+opening.md	data/opening-timeline.md	オープニングの始まり（7:12の朝）	20-35
+truth.md	story/briefs/chapter3-main-story-brief.md	真相の全体像（1章・2章の伏線用。本文では3章まで明かさない）	1-8,90-191
