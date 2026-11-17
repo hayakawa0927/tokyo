@@ -1,0 +1,5 @@
+# 2章で写すもの（出力	元ファイル	題	範囲）。source-sync スキルの snap.py が読む
+# 骨子づくりのために、物語の文・章の流れ・世界の決まりを先に写した。キャラ・技・場所は2章を書き始めるときに足す
+story.md	data/story-list.md	2章の物語の文	364-845
+design.md	spec/chapter2-design.md	2章の流れ（設計）	1-
+concept.md	spec/concept.md	2章の世界の決まり	209-315

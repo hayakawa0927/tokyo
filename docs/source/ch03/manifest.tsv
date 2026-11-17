@@ -1,0 +1,7 @@
+# 3章で写すもの（出力	元ファイル	題	範囲）。source-sync スキルの snap.py が読む
+# 骨子づくりのために、物語の文・章の流れ・勢力・3章の資料を先に写した。キャラ・技・場所は3章を書き始めるときに足す
+story.md	data/story-list.md	3章の物語の文	846-
+design.md	spec/chapter3-design.md	3章の流れ（設計）	1-
+concept.md	spec/concept.md	勢力と3章の始まりの配置・交渉	316-345,692-747
+brief.md	story/briefs/chapter3-story-brief.md	3章の勢力・キャラ・前半の流れ	1-
+main_brief.md	story/briefs/chapter3-main-story-brief.md	3章の中盤以降のメインストーリー（真相とエンディング）	1-
